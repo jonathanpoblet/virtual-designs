@@ -1,0 +1,42 @@
+nav {
+    background-color: #fdfdfd !important;
+    position: fixed;
+}
+
+.logo {
+    width: 140px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.nav-item {
+    margin-right: 30px;
+}
+
+.nav-link {
+    border-radius: 5px;
+}
+
+.nav-link:hover {
+    background-color: #5BC82C;
+    color: #fff !important;
+}
+
+.navbar-toggler {
+    background-color: #5BC82C !important;
+}
+
+.navbar-toggler:active, .navbar-toggler:focus {
+    outline: 2px solid #111 !important;
+}
+
+@media screen and (max-width: 991px) {
+    .nav-item {
+        margin-right: 0px;
+        margin: 0px 20px;
+    }
+
+    .nav-link {
+        padding: 5px !important;
+    }
+}
