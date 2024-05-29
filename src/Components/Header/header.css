@@ -17,6 +17,8 @@ nav {
 .nav-link {
   border-radius: 5px;
   transition: 0.4s !important;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 10px #a5a5a5;
 }
 
 .nav-link:hover {
