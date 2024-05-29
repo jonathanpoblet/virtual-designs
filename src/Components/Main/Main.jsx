@@ -1,4 +1,4 @@
-import './main.css';
+import "./main.css";
 
 export default function Main() {
   return (
@@ -7,7 +7,7 @@ export default function Main() {
         <h1>
           <span>V</span>IRTUAL <br></br> DESIGNS
         </h1>
-        <h2>Soluciones Digitales</h2>
+        <h2>SOLUCIONES DIGITALES</h2>
       </section>
     </main>
   );

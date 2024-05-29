@@ -42,4 +42,8 @@ nav {
   .nav-link {
     padding: 5px !important;
   }
+
+  .navbar-toggler {
+    margin-right: 30px;
+  }
 }
