@@ -1,9 +1,9 @@
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap';
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap";
 
-import Header from './Components/Header/Header';
-import Main from './Components/Main/Main';
+import Header from "./Components/Header/Header";
+import Main from "./Components/Main/Main";
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       <Header />
       <Main />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

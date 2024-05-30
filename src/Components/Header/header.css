@@ -1,7 +1,7 @@
 nav {
   background-color: #f6be00 !important;
   position: fixed;
-  box-shadow: 2px 2px 20px 2px #979797;
+  box-shadow: 2px 2px 20px 2px #838383;
 }
 
 .logo {
@@ -27,7 +27,12 @@ nav {
 }
 
 .navbar-toggler {
-  background-color: #ffffff !important;
+  background-color: #ececec !important;
+  color: #fff !important;
+}
+
+.navbar-toggler-icon {
+  color: #fff !important;
 }
 
 .navbar-toggler:active,
