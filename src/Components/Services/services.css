@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url("../../../public/services.png");
+  background-image: url('../../../public/services.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -82,7 +82,7 @@
   .services-container-card {
     margin: 0px;
     margin-top: 70px;
-    width: 240px;
+    width: 270px;
     justify-content: space-between;
   }
 }
