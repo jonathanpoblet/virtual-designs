@@ -27,14 +27,26 @@ export default function Info() {
 
   return (
     <section className='info' id='info'>
-      <p className='info-text'>
+      <p
+        className='info-text'
+        data-aos='fade-up'
+        data-aos-offset='200'
+        data-aos-easing='ease-in-sine'
+        data-aos-duration='600'
+      >
         Digitalizar tu negocio es esencial en la era moderna, ya que permite mejorar la eficiencia
         operativa, incrementar la satisfacción del cliente y abrir nuevas oportunidades de mercado.
         La adopción de tecnologías digitales facilita una mayor competitividad y adaptación a las
         cambiantes demandas del mercado, además de potenciar la rentabilidad y el crecimiento
         sostenible.
       </p>
-      <div className='info-container'>
+      <div
+        className='info-container'
+        data-aos='fade-up'
+        data-aos-offset='200'
+        data-aos-easing='ease-in-sine'
+        data-aos-duration='600'
+      >
         {info.map(i => {
           return (
             <div className='info-container-stadistic'>
