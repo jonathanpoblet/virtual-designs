@@ -6,6 +6,21 @@ import 'aos/dist/aos.css';
 import './info.css';
 
 export default function Info() {
+  const info = [
+    {
+      number: '1.500',
+      text: 'NEGOCIOS DIGITALIZADOS POR DÍA',
+    },
+    {
+      number: '250.000',
+      text: 'NEGOCIOS DIGITALIZADOS EN EL MUNDO',
+    },
+    {
+      number: '1.200',
+      text: 'NUEVOS EMPRENDEDORES CADA DÍA',
+    },
+  ];
+
   useEffect(() => {
     AOS.init();
   }, []);
@@ -20,18 +35,14 @@ export default function Info() {
         sostenible.
       </p>
       <div className='info-container'>
-        <div className='info-container-stadistic'>
-          <p className='info-container-stadistic-number'>1.500</p>
-          <p className='info-container-stadistic-text'>NEGOCIOS DIGITALIZADOS POR DÍA</p>
-        </div>
-        <div className='info-container-stadistic'>
-          <p className='info-container-stadistic-number'>250.000</p>
-          <p className='info-container-stadistic-text'>NEGOCIOS DIGITALIZADOS EN EL MUNDO</p>
-        </div>
-        <div className='info-container-stadistic'>
-          <p className='info-container-stadistic-number'>1.500</p>
-          <p className='info-container-stadistic-text'>NUEVOS EMPRENDEDORES CADA DÍA</p>
-        </div>
+        {info.map(i => {
+          return (
+            <div className='info-container-stadistic'>
+              <p className='info-container-stadistic-number'>{i.number}</p>
+              <p className='info-container-stadistic-text'>{i.text}</p>
+            </div>
+          );
+        })}
       </div>
     </section>
   );
