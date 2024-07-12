@@ -39,15 +39,16 @@ export default function Clients() {
       <div className='clients-container'>
         {clients.map(client => {
           return (
-            <img
-              onClick={() => (window.location.href = client.url)}
-              className='clients-container-img'
-              src={client.src}
-              data-aos={client.aos}
-              data-aos-offset='200'
-              data-aos-easing='ease-in-sine'
-              data-aos-duration='800'
-            />
+            <a href={client.url} target='_blank'>
+              <img
+                className='clients-container-img'
+                src={client.src}
+                data-aos={client.aos}
+                data-aos-offset='200'
+                data-aos-easing='ease-in-sine'
+                data-aos-duration='800'
+              />
+            </a>
           );
         })}
       </div>
