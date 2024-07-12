@@ -52,6 +52,16 @@ export default function Header() {
               <a
                 className='nav-link active'
                 aria-current='page'
+                href='#precios'
+                onClick={handleLinkClick}
+              >
+                Precios
+              </a>
+            </li>
+            <li className='nav-item'>
+              <a
+                className='nav-link active'
+                aria-current='page'
                 href='#contacto'
                 onClick={handleLinkClick}
               >
