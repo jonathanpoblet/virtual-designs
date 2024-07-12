@@ -1,5 +1,4 @@
 import { useEffect } from 'react';
-import { FaRegClock, FaDesktop, FaChartLine } from 'react-icons/fa';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -7,6 +6,29 @@ import 'aos/dist/aos.css';
 import './clients.css';
 
 export default function Clients() {
+  const clients = [
+    {
+      url: 'https://donnacalzados.com/',
+      src: '../../../public/donna.png',
+      aos: 'fade-right',
+    },
+    {
+      url: 'https://jonathanpoblet.github.io/jardineria/',
+      src: '../../../public/botanica.png',
+      aos: 'fade-left',
+    },
+    {
+      url: 'https://jonathanpoblet.github.io/forzagym/',
+      src: '../../../public/forza.png',
+      aos: 'fade-right',
+    },
+    {
+      url: 'https://jonathanpoblet.github.io/Taraborelli-Automobile/',
+      src: '../../../public/automobile.png',
+      aos: 'fade-left',
+    },
+  ];
+
   useEffect(() => {
     AOS.init();
   }, []);
@@ -15,32 +37,19 @@ export default function Clients() {
     <section className='clients fade-in' id='clientes'>
       <h2>CASOS DE ÉXITO</h2>
       <div className='clients-container'>
-        <img
-          onClick={() => (window.location.href = 'https://donnacalzados.com/')}
-          className='clients-container-img'
-          src='../../../public/donna.png'
-          alt='Imagen Proyecto Cliente'
-        />
-        <img
-          onClick={() => (window.location.href = 'https://jonathanpoblet.github.io/jardineria/')}
-          className='clients-container-img'
-          src='../../../public/botanica.png'
-          alt='pImagen Proyecto Cliente'
-        />
-        <img
-          onClick={() => (window.location.href = 'https://jonathanpoblet.github.io/forzagym/')}
-          className='clients-container-img'
-          src='../../../public/forza.png'
-          alt='pImagen Proyecto Cliente'
-        />
-        <img
-          onClick={() =>
-            (window.location.href = 'https://jonathanpoblet.github.io/Taraborelli-Automobile/')
-          }
-          className='clients-container-img'
-          src='../../../public/automobile.png'
-          alt='pImagen Proyecto Cliente'
-        />
+        {clients.map(client => {
+          return (
+            <img
+              onClick={() => (window.location.href = client.url)}
+              className='clients-container-img'
+              src={client.src}
+              data-aos={client.aos}
+              data-aos-offset='200'
+              data-aos-easing='ease-in-sine'
+              data-aos-duration='600'
+            />
+          );
+        })}
       </div>
     </section>
   );
