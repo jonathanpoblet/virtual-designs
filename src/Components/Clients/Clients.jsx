@@ -10,22 +10,22 @@ export default function Clients() {
     {
       url: 'https://donnacalzados.com/',
       src: '../../../public/donna.png',
-      aos: 'fade-right',
+      aos: 'flip-right',
     },
     {
       url: 'https://jonathanpoblet.github.io/jardineria/',
       src: '../../../public/botanica.png',
-      aos: 'fade-left',
+      aos: 'flip-left',
     },
     {
       url: 'https://jonathanpoblet.github.io/forzagym/',
       src: '../../../public/forza.png',
-      aos: 'fade-right',
+      aos: 'flip-right',
     },
     {
       url: 'https://jonathanpoblet.github.io/Taraborelli-Automobile/',
       src: '../../../public/automobile.png',
-      aos: 'fade-left',
+      aos: 'flip-left',
     },
   ];
 
@@ -46,7 +46,7 @@ export default function Clients() {
               data-aos={client.aos}
               data-aos-offset='200'
               data-aos-easing='ease-in-sine'
-              data-aos-duration='600'
+              data-aos-duration='800'
             />
           );
         })}

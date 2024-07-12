@@ -29,10 +29,10 @@ export default function Info() {
     <section className='info' id='info'>
       <p
         className='info-text'
-        data-aos='fade-up'
+        data-aos='zoom-in'
         data-aos-offset='200'
         data-aos-easing='ease-in-sine'
-        data-aos-duration='600'
+        data-aos-duration='800'
       >
         Digitalizar tu negocio es esencial en la era moderna, ya que permite mejorar la eficiencia
         operativa, incrementar la satisfacción del cliente y abrir nuevas oportunidades de mercado.
@@ -42,10 +42,10 @@ export default function Info() {
       </p>
       <div
         className='info-container'
-        data-aos='fade-up'
+        data-aos='zoom-in'
         data-aos-offset='200'
         data-aos-easing='ease-in-sine'
-        data-aos-duration='600'
+        data-aos-duration='800'
       >
         {info.map(i => {
           return (
