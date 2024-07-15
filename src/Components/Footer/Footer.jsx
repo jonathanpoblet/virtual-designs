@@ -15,7 +15,7 @@ const Footer = () => {
         <li className='ms-3 footer-li'>
           <a
             className='text-muted'
-            href='https://api.whatsapp.com/send?phone=542478478213&text=Hola,%20quiero%20consultar%20por%20un%20producto!'
+            href='https://api.whatsapp.com/send?phone=542478478213&text=Hola,%20quiero%20consultar%20por%20un%20sitio%20web!'
             target='_blank'
           >
             <FaWhatsapp className='footer-icons' />
