@@ -1,6 +1,6 @@
 # BOTÁNICA
 
-Deploy: https://jonathanpoblet.github.io/jardineria/
+Deploy: https://jonathanpoblet.github.io/virtual-designs/
 
 ![virtual designs](https://github.com/user-attachments/assets/ceb46a48-f4e6-48a2-97d0-c5f2e7a1f6d2)
 
