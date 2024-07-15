@@ -16,7 +16,7 @@ export default function Header() {
     <nav className={`navbar navbar-expand-md fixed-top fade-in ${isMenuOpen ? 'show' : ''}`}>
       <div className='container-fluid'>
         <a className='navbar-brand' href='#'>
-          <img className='logo' src='../../../public/logo.png' alt='logo' />
+          <img className='logo' src='logo.png' alt='logo' />
         </a>
         <button className='navbar-toggler' type='button' onClick={handleMenuToggle}>
           <span className='navbar-toggler-icon'></span>

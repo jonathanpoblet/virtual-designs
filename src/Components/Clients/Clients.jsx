@@ -9,22 +9,22 @@ export default function Clients() {
   const clients = [
     {
       url: 'https://donnacalzados.com/',
-      src: '../../../public/donna.png',
+      src: 'donna.png',
       aos: 'flip-right',
     },
     {
       url: 'https://jonathanpoblet.github.io/jardineria/',
-      src: '../../../public/botanica.png',
+      src: 'botanica.png',
       aos: 'flip-left',
     },
     {
       url: 'https://jonathanpoblet.github.io/forzagym/',
-      src: '../../../public/forza.png',
+      src: 'forza.png',
       aos: 'flip-right',
     },
     {
       url: 'https://jonathanpoblet.github.io/Taraborelli-Automobile/',
-      src: '../../../public/automobile.png',
+      src: 'automobile.png',
       aos: 'flip-left',
     },
   ];
