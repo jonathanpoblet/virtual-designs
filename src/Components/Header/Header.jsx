@@ -58,16 +58,6 @@ export default function Header() {
                 Precios
               </a>
             </li>
-            <li className='nav-item'>
-              <a
-                className='nav-link active'
-                aria-current='page'
-                href='#contacto'
-                onClick={handleLinkClick}
-              >
-                Contacto
-              </a>
-            </li>
           </ul>
         </div>
       </div>

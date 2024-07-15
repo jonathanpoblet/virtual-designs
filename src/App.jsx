@@ -5,6 +5,7 @@ import 'bootstrap';
 import Header from './Components/Header/Header';
 import Main from './Components/Main/Main';
 import WhatsAppButton from './Components/WhatsAppButton/WhatsAppButton';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Header />
       <Main />
       <WhatsAppButton />
+      <Footer />
     </>
   );
 }
