@@ -1,4 +1,4 @@
-# BOTÁNICA
+# VIRTUAL DESIGNS
 
 Deploy: https://jonathanpoblet.github.io/virtual-designs/
 
