@@ -31,7 +31,7 @@ const Footer = () => {
           </a>
         </li>
         <li className='ms-3 footer-li'>
-          <a className='text-muted' href='mailto:contacto.virtualdesigns@gmail.com' target='_blank'>
+          <a className='text-muted' href='mailto:contacto@virtualdesigns.tech' target='_blank'>
             <AiOutlineMail className='footer-icons' />
           </a>
         </li>
