@@ -20,7 +20,7 @@ export default function Clients() {
     {
       url: 'https://jonathanpoblet.github.io/forzagym/',
       src: 'assets/forza.png',
-      aos: 'assets/flip-right',
+      aos: 'flip-right',
     },
     {
       url: 'https://jonathanpoblet.github.io/Taraborelli-Automobile/',
