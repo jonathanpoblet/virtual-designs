@@ -18,8 +18,8 @@ export default function Clients() {
       aos: 'flip-left',
     },
     {
-      url: 'https://jonathanpoblet.github.io/forzagym/',
-      src: 'assets/forza.png',
+      url: 'http://prueba.taraborelliagro.com/',
+      src: 'assets/agro.png',
       aos: 'flip-right',
     },
     {
@@ -40,14 +40,7 @@ export default function Clients() {
         {clients.map(client => {
           return (
             <a href={client.url} target='_blank'>
-              <img
-                className='clients-container-img'
-                src={client.src}
-                data-aos={client.aos}
-                data-aos-offset='200'
-                data-aos-easing='ease-in-sine'
-                data-aos-duration='800'
-              />
+              <img className='clients-container-img' src={client.src} data-aos={client.aos} data-aos-offset='200' data-aos-easing='ease-in-sine' data-aos-duration='800' />
             </a>
           );
         })}
