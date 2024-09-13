@@ -15,7 +15,7 @@ const Footer = () => {
         <li className='ms-3 footer-li'>
           <a
             className='text-muted'
-            href='https://api.whatsapp.com/send?phone=541130565913&text=Hola,%20quiero%20consultar%20por%20un%20sitio%20web!'
+            href='https://api.whatsapp.com/send?phone=541130565913&text=Hi,%20I%20want%20to%20consult%20for%20a%20website!'
             target='_blank'
           >
             <FaWhatsapp className='footer-icons' />
@@ -31,7 +31,7 @@ const Footer = () => {
           </a>
         </li>
         <li className='ms-3 footer-li'>
-          <a className='text-muted' href='mailto:contacto@virtualdesigns.tech' target='_blank'>
+          <a className='text-muted' href='mailto:contact@virtualdesigns.tech' target='_blank'>
             <AiOutlineMail className='footer-icons' />
           </a>
         </li>

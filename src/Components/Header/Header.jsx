@@ -25,37 +25,37 @@ export default function Header() {
           <ul className='navbar-nav w-100 justify-content-end'>
             <li className='nav-item'>
               <a className='nav-link active' aria-current='page' href='#' onClick={handleLinkClick}>
-                Inicio
+                Home
               </a>
             </li>
             <li className='nav-item'>
               <a
                 className='nav-link active'
                 aria-current='page'
-                href='#servicios'
+                href='#services'
                 onClick={handleLinkClick}
               >
-                Servicios
+                Services
               </a>
             </li>
             <li className='nav-item'>
               <a
                 className='nav-link active'
                 aria-current='page'
-                href='#clientes'
+                href='#clients'
                 onClick={handleLinkClick}
               >
-                Clientes
+                Clients
               </a>
             </li>
             <li className='nav-item'>
               <a
                 className='nav-link active'
                 aria-current='page'
-                href='#precios'
+                href='#pricing'
                 onClick={handleLinkClick}
               >
-                Precios
+                Pricing
               </a>
             </li>
           </ul>

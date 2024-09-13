@@ -9,15 +9,15 @@ export default function Info() {
   const info = [
     {
       number: '1.500',
-      text: 'NEGOCIOS DIGITALIZADOS POR DÍA',
+      text: 'DIGITALIZED BUSINESSES PER DAY',
     },
     {
       number: '250.000',
-      text: 'NEGOCIOS DIGITALIZADOS EN EL MUNDO',
+      text: 'DIGITALIZED BUSINESSES IN THE WORLD',
     },
     {
       number: '1.200',
-      text: 'NUEVOS EMPRENDEDORES CADA DÍA',
+      text: 'NEW ENTREPRENEURS EVERY DAY',
     },
   ];
 
@@ -34,11 +34,10 @@ export default function Info() {
         data-aos-easing='ease-in-sine'
         data-aos-duration='800'
       >
-        Digitalizar tu negocio es esencial en la era moderna, ya que permite mejorar la eficiencia
-        operativa, incrementar la satisfacción del cliente y abrir nuevas oportunidades de mercado.
-        La adopción de tecnologías digitales facilita una mayor competitividad y adaptación a las
-        cambiantes demandas del mercado, además de potenciar la rentabilidad y el crecimiento
-        sostenible.
+        Digitizing your business is essential in the modern era, as it allows you to improve
+        operational efficiency, increase customer satisfaction and open new market opportunities.
+        The adoption of digital technologies facilitates greater competitiveness and adaptation to
+        changing market demands, in addition to enhancing profitability and sustainable growth.
       </p>
       <div
         className='info-container'
