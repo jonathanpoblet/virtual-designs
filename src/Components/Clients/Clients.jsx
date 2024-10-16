@@ -34,13 +34,20 @@ export default function Clients() {
   }, []);
 
   return (
-    <section className='clients fade-in' id='clientes'>
-      <h2>CASOS DE ÉXITO</h2>
+    <section className='clients fade-in' id='clients'>
+      <h2>CLIENTS</h2>
       <div className='clients-container'>
         {clients.map(client => {
           return (
             <a href={client.url} target='_blank'>
-              <img className='clients-container-img' src={client.src} data-aos={client.aos} data-aos-offset='200' data-aos-easing='ease-in-sine' data-aos-duration='800' />
+              <img
+                className='clients-container-img'
+                src={client.src}
+                data-aos={client.aos}
+                data-aos-offset='200'
+                data-aos-easing='ease-in-sine'
+                data-aos-duration='800'
+              />
             </a>
           );
         })}
