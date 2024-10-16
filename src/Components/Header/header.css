@@ -1,5 +1,5 @@
 nav {
-  background-color: #f6be00 !important;
+  background-color: #000 !important;
   position: fixed;
   box-shadow: 2px 2px 20px 2px #838383;
 }
@@ -16,14 +16,15 @@ nav {
 
 .nav-link {
   border-radius: 5px;
-  transition: 0.4s !important;
+  background: #000;
+  transition: background 2s ease-in-out;
   letter-spacing: 2px;
+  color: #fff !important;
   text-shadow: 1px 1px 10px #a5a5a5;
 }
 
 .nav-link:hover {
-  background-color: #000000;
-  color: #f6be00 !important;
+  background: linear-gradient(#ca2093, #8e76ca);
 }
 
 .navbar-toggler {

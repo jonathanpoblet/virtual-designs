@@ -2,48 +2,58 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   background-image: url('../../../public/assets/banner.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   text-align: center;
   padding: 50px;
+  padding-left: 200px;
   width: 100%;
   height: 100vh;
   background-color: #000;
 }
 
 .banner h1 {
-  font-size: 100px;
-  color: #000;
-  text-shadow: 2px 2px 10px #747474;
+  font-size: 80px;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 10px #4d4d4d;
   letter-spacing: 10px;
+  font-weight: 700;
+  max-width: 700px;
+  text-align: start;
 }
 
-.banner h1 span {
-  color: #f6be00;
+.banner h2 {
+  font-size: 25px;
+  color: rgb(44, 44, 44);
+  text-shadow: 2px 2px 10px #747474;
+  letter-spacing: 4px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-left: 6px;
 }
 
 .banner a {
-  background-color: #f6be00;
-  color: #000;
+  background: linear-gradient(#ca2093, #8e76ca);
+  color: #fff;
   box-shadow: 2px 2px 10px 2px #3d3d3d;
   padding: 8px 15px;
   text-decoration: none;
   border-radius: 5px;
   letter-spacing: 2px;
   transition: 0.5s;
+  margin-left: 6px;
 }
 
 .banner a:hover {
-  background-color: #000000;
-  color: #f6be00;
+  opacity: 0.7;
 }
 
 @media screen and (max-width: 1100px) {
   .banner h1 {
-    font-size: 75px;
+    font-size: 70px;
   }
 
   .banner h2 {
@@ -53,6 +63,6 @@
 
 @media screen and (max-width: 600px) {
   .banner h1 {
-    font-size: 60px;
+    font-size: 50px;
   }
 }
