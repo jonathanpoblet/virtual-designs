@@ -1,5 +1,6 @@
 nav {
   background-color: transparent !important;
+  position: absolute !important;
 }
 
 .logo {
