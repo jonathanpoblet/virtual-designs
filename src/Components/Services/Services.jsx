@@ -19,14 +19,14 @@ export default function Services() {
   }, []);
 
   return (
-    <section className='services' id='services'>
+    <section className='services' id='servicios'>
       <h2
         data-aos='fade-up'
         data-aos-offset='200'
         data-aos-easing='ease-in-sine'
         data-aos-duration='600'
       >
-        SERVICES
+        NUESTROS SERVICIOS
       </h2>
       <div
         data-aos='fade-up'
@@ -37,24 +37,30 @@ export default function Services() {
       >
         <div className='services-container-card'>
           <FaRegClock />
-          <h3>Custom Web Development</h3>
-          <p>Creation of professional websites within one or two weeks, tailored to your needs.</p>
-          <button onClick={handleClick}>More Information</button>
+          <h3>Desarrollo Personalizado</h3>
+          <p>
+            Creación de sitios web profesionales dentro de una o dos semanas, adaptados a tus
+            necesidades.
+          </p>
+          <button onClick={handleClick}>Más Información</button>
         </div>
         <div className='services-container-card'>
           <FaDesktop />
-          <h3>Responsive Designs</h3>
-          <p>Websites adapted to any device, providing an excellent user experience user.</p>
-          <button onClick={handleClick}>More Information</button>
+          <h3>Diseño Responsivo</h3>
+          <p>
+            Sitios web adaptados a cualquier dispositivo, brindando una excelente experiencia de
+            usuario.
+          </p>
+          <button onClick={handleClick}>Más Información</button>
         </div>
         <div className='services-container-card'>
           <FaChartLine />
-          <h3>SEO & Optimization</h3>
+          <h3>SEO y Optimización</h3>
           <p>
-            Improve your site's visibility in search engines and attract more traffic organic to
-            your business.
+            Mejora la visibilidad de tu sitio en los motores de búsqueda y atrae más tráfico
+            orgánico a tu negocio.
           </p>
-          <button onClick={handleClick}>More Information</button>
+          <button onClick={handleClick}>Más Información</button>
         </div>
       </div>
     </section>
