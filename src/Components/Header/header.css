@@ -1,7 +1,5 @@
 nav {
-  background-color: #000 !important;
-  position: fixed;
-  box-shadow: 2px 2px 20px 2px #838383;
+  background-color: transparent !important;
 }
 
 .logo {
@@ -12,19 +10,19 @@ nav {
 
 .nav-item {
   margin-right: 30px;
+  font-weight: 500;
 }
 
 .nav-link {
   border-radius: 5px;
-  background: #000;
-  transition: background 2s ease-in-out;
-  letter-spacing: 2px;
   color: #fff !important;
+  transition: color 0.35s ease-in-out;
+  letter-spacing: 4px;
   text-shadow: 1px 1px 10px #a5a5a5;
 }
 
 .nav-link:hover {
-  background: linear-gradient(#ca2093, #8e76ca);
+  color: #000 !important;
 }
 
 .navbar-toggler {
@@ -53,5 +51,11 @@ nav {
 
   .navbar-toggler {
     margin-right: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .nav-link {
+    padding-left: 18px !important;
   }
 }

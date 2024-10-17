@@ -5,7 +5,7 @@ import './whatsAppButton.css';
 export default function WhatsAppButton() {
   const handleClick = () => {
     window.open(
-      'https://api.whatsapp.com/send?phone=541130565913&text=Hi,%20I%20want%20to%20consult%20for%20a%20website!',
+      'https://api.whatsapp.com/send?phone=541130565913&text=Hola,%20quiero%20consultar%20por%20un%20sitio%20web!',
       '_blank'
     );
   };

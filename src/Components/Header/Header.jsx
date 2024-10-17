@@ -25,7 +25,7 @@ export default function Header() {
           <ul className='navbar-nav w-100 justify-content-end'>
             <li className='nav-item'>
               <a className='nav-link active' aria-current='page' href='#' onClick={handleLinkClick}>
-                Home
+                Inicio
               </a>
             </li>
             <li className='nav-item'>
@@ -35,7 +35,7 @@ export default function Header() {
                 href='#services'
                 onClick={handleLinkClick}
               >
-                Services
+                Servicios
               </a>
             </li>
             <li className='nav-item'>
@@ -45,7 +45,7 @@ export default function Header() {
                 href='#clients'
                 onClick={handleLinkClick}
               >
-                Clients
+                Clientes
               </a>
             </li>
             <li className='nav-item'>
@@ -55,7 +55,7 @@ export default function Header() {
                 href='#pricing'
                 onClick={handleLinkClick}
               >
-                Pricing
+                Precios
               </a>
             </li>
           </ul>
