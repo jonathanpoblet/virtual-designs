@@ -22,7 +22,7 @@ nav {
 }
 
 .nav-link:hover {
-  color: #000 !important;
+  color: rgb(167, 167, 167) !important;
 }
 
 .navbar-toggler {
