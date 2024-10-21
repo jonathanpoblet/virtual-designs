@@ -24,7 +24,7 @@ export default function Header() {
         <div className={`collapse navbar-collapse ${isMenuOpen ? 'show' : ''}`} id='navbarNav'>
           <ul className='navbar-nav w-100 justify-content-end'>
             <li className='nav-item'>
-              <a className='nav-link active' aria-current='page' href='/' onClick={handleLinkClick}>
+              <a className='nav-link active' aria-current='page' href='#' onClick={handleLinkClick}>
                 Inicio
               </a>
             </li>
@@ -42,7 +42,7 @@ export default function Header() {
               <a
                 className='nav-link active'
                 aria-current='page'
-                href='/#clients'
+                href='/#clientes'
                 onClick={handleLinkClick}
               >
                 Clientes
@@ -52,7 +52,7 @@ export default function Header() {
               <a
                 className='nav-link active'
                 aria-current='page'
-                href='/#pricing'
+                href='/#precios'
                 onClick={handleLinkClick}
               >
                 Precios

@@ -34,7 +34,7 @@ export default function Clients() {
   }, []);
 
   return (
-    <section className='clients fade-in' id='clients'>
+    <section className='clients fade-in' id='clientes'>
       <h2>CASOS DE ÉXITO</h2>
       <div className='clients-container'>
         {clients.map((client, index) => {
