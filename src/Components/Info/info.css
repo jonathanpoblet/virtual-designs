@@ -7,7 +7,7 @@
   padding: 120px 50px;
   width: 100%;
   background-color: #000;
-  background: radial-gradient(#000, #0c0c0c, #0f0f0f, #111111);
+  background: linear-gradient(#94276c, #5a2184, #94276c);
 }
 
 .info-text {

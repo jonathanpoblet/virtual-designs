@@ -35,11 +35,11 @@ export default function Clients() {
 
   return (
     <section className='clients fade-in' id='clients'>
-      <h2>CLIENTS</h2>
+      <h2>CASOS DE ÉXITO</h2>
       <div className='clients-container'>
-        {clients.map(client => {
+        {clients.map((client, index) => {
           return (
-            <a href={client.url} target='_blank'>
+            <a href={client.url} target='_blank' key={index}>
               <img
                 className='clients-container-img'
                 src={client.src}

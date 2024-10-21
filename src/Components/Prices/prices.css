@@ -7,7 +7,7 @@
   padding: 120px 50px;
   width: 100%;
   background-color: #000;
-  background: radial-gradient(#fff, #f3f3f3, #c5c5c5, #b1b1b1);
+  background: linear-gradient(#272e94, #5a2184, #94276c);
 }
 
 .prices h2 {
@@ -31,11 +31,10 @@
   justify-content: flex-start;
   align-items: center;
   width: 300px;
-  background-color: #000000;
   margin: 30px;
   margin-top: 60px;
   border-radius: 5px;
-  box-shadow: 2px 2px 10px 2px rgb(29, 29, 29);
+  box-shadow: 2px 2px 10px 2px rgb(20, 20, 20);
 }
 
 .prices-container-card-h3 {
@@ -45,7 +44,6 @@
   font-weight: 700;
   letter-spacing: 2px;
   color: #ffffff;
-  background: #000000;
   width: 100%;
   margin-bottom: 0px;
   padding: 25px;
@@ -57,7 +55,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #f6be00;
+  background-color: transparent;
   width: 100%;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
@@ -66,7 +64,7 @@
 
 .prices-container-card-div-title {
   font-size: 24px;
-  color: #000;
+  color: #fff;
   font-weight: 700;
   letter-spacing: 2px;
   margin-bottom: 0px;
@@ -74,8 +72,8 @@
 
 .prices-container-card-div-subtitle {
   font-size: 15px;
-  color: #1d1d1d;
-  font-weight: 500;
+  color: rgb(224, 224, 224);
+  font-weight: 100;
   letter-spacing: 2px;
 }
 
@@ -90,10 +88,11 @@
 }
 
 .prices-container-card-div-list-item {
-  border-bottom: 1px solid #757575;
+  border-bottom: 2px solid rgb(0, 0, 0);
   padding: 10px;
   width: 100%;
   letter-spacing: 2px;
+  color: #fff;
 }
 
 .prices-container-card-div-list-item:last-child {

@@ -9,6 +9,7 @@
   padding: 30px;
   padding-left: 90px;
   padding-right: 90px;
+  border-top: 0px !important;
 }
 
 .footer-icons {
@@ -18,7 +19,7 @@
 }
 
 .footer-icons:hover {
-  color: #f6be00;
+  color: rgba(241, 241, 241, 0.699);
 }
 
 @media screen and (max-width: 550px) {
