@@ -30,8 +30,12 @@
   max-width: 1200px;
 }
 
+.clients-container a {
+  width: 50%;
+}
+
 .clients-container-img {
-  width: 540px;
+  width: 90%;
   height: 280px;
   border-radius: 5px;
   box-shadow: 2px 2px 30px 2px rgb(0, 0, 0);
