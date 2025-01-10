@@ -8,8 +8,8 @@ import './clients.css';
 export default function Clients() {
   const clients = [
     {
-      url: 'https://donnacalzados.com/',
-      src: 'assets/donna.png',
+      url: 'https://jonathanpoblet.github.io/forzagym/',
+      src: 'assets/forza.png',
       aos: 'flip-right',
     },
     {
