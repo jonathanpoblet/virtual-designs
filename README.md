@@ -1,8 +1,8 @@
 # VIRTUAL DESIGNS
 
-Deploy: https://jonathanpoblet.github.io/virtual-designs/
+Deploy: https://virtualdesigns.tech
 
-![virtual designs](https://github.com/user-attachments/assets/136e8d3b-6dd1-411b-a205-e05ba8b8f8eb)
+![virtual-designs](https://github.com/user-attachments/assets/e88838b1-9b8a-4e83-8030-de004dd959cb)
 
 ---
 
