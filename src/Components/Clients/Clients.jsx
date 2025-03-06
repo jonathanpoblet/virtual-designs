@@ -8,17 +8,17 @@ import './clients.css';
 export default function Clients() {
   const clients = [
     {
-      url: 'https://jonathanpoblet.github.io/forzagym/',
-      src: 'assets/forza.png',
+      url: 'https://titangym.cloud',
+      src: 'assets/titangym.png',
       aos: 'flip-right',
     },
     {
-      url: 'https://jonathanpoblet.github.io/jardineria/',
-      src: 'assets/botanica.png',
+      url: 'https://ironzone.site',
+      src: 'assets/ironzone.png',
       aos: 'flip-left',
     },
     {
-      url: 'http://prueba.taraborelliagro.com/',
+      url: 'https://agromaquinaria.cloud',
       src: 'assets/agro.png',
       aos: 'flip-right',
     },
